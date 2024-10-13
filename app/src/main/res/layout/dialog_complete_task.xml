@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTotalPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مجموع النقاط: 0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTotalPoints"
+        android:layout_marginTop="16dp"
+        android:text=" لقد حصلت على نقاط وستحصل على هدية! يرجى الضغط على زر ااتمام انجاز المهمة "
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMessage"
+        android:layout_marginTop="64dp"
+        android:background="@color/button_brown"
+        android:text="انجاز المهمة بنجاح" />
+</RelativeLayout>
